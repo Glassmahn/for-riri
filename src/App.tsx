@@ -302,8 +302,7 @@ function App() {
                   only playing.
                 </p>
                 <p className="cheeky-line">
-                  Besides, I did say I'd be back in 3 years' time. Don't make me
-                  keep a calendar. 😉
+                  I'd be back in 3yrs time. 😉
                 </p>
                 <p className="signature truth-signature">
                   Still your Shay Shay,
