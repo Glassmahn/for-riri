@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Enter the birthday experience and navigate its sections",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "minimal landing invitation",
+      "decorative cupid illustration",
+      "birthday section navigation",
+      "four-section experience"
+    ],
+    "description": "Verifies the simplified invitation and cupid artwork lead into the birthday letter and the main navigation reaches the confession and gallery.",
+    "steps": [
+      "Open the landing page",
+      "Select OPEN YOUR SURPRISE",
+      "Open A little confession",
+      "Open The Riri archives"
+    ],
+    "expected": "The uncluttered For Riri invitation and cupid illustration display, then the birthday letter, confession, and gallery render from the section navigation."
+  },
+  {
+    "name": "Expand the birthday letter",
+    "viewport": "mobile",
+    "covers": [
+      "foldable birthday letter",
+      "birthday message content",
+      "mobile layout"
+    ],
+    "description": "Verifies the birthday note can be expanded to reveal its closing wishes and signature on a phone-sized viewport.",
+    "steps": [
+      "Enter the experience",
+      "Open the birthday letter",
+      "Select THERE'S A LITTLE MORE"
+    ],
+    "expected": "The additional birthday wishes and Shay Shay signature become visible."
+  },
+  {
+    "name": "Read the personal confession and three-year callback",
+    "viewport": "desktop",
+    "covers": [
+      "romantic confession",
+      "attraction and admiration message",
+      "three-year callback"
+    ],
+    "description": "Verifies the dedicated confession page communicates sincere romantic interest without a forced response.",
+    "steps": [
+      "Enter the experience",
+      "Open A little confession",
+      "Read the confession to its closing line"
+    ],
+    "expected": "The page includes the sincere attraction message, appreciation of her ambition, and the three-year callback."
+  },
+  {
+    "name": "Open the photo gallery and view a photo",
+    "viewport": "mobile",
+    "covers": [
+      "photo gallery",
+      "photo lightbox",
+      "video gallery area",
+      "missing media placeholders"
+    ],
+    "description": "Verifies the gallery remains usable before personal media is uploaded and opens an image viewer.",
+    "steps": [
+      "Enter the experience",
+      "Open The Riri archives",
+      "Select the first gallery tile",
+      "Close the photo viewer"
+    ],
+    "expected": "A photo tile opens a dismissible viewer, and missing media displays a friendly placeholder rather than a broken image."
+  },
+  {
+    "name": "Control the soundtrack",
+    "viewport": "desktop",
+    "covers": [
+      "user-initiated soundtrack playback",
+      "music pause and mute controls"
+    ],
+    "description": "Verifies soundtrack playback is user initiated and can be paused or muted.",
+    "steps": [
+      "Open the landing page",
+      "Select OUR SONG",
+      "Pause playback",
+      "Toggle mute"
+    ],
+    "expected": "The soundtrack controls respond without autoplaying audio before the visitor enters or presses play."
+  }
+]
